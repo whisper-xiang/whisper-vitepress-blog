@@ -10,8 +10,11 @@ hero:
     src: /avatar.png
     alt: 轻语
   actions:
-    - text: 轻语
-      link: /web2/javascript/01-简介
+    - text: web2.0
+      link: /前端/Web2.0/JavaScript/01-简介/
+    - text: web3.0
+      link: /前端/Web3.0/
+      theme: alt
     # - text: 前端导航
     #   link: /nav/
     #   theme: alt
@@ -22,10 +25,18 @@ hero:
     #   theme: alt
 features:
   - icon: 📖
-    title: 前端物语
-    details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
-    link: /web2/javascript/01-简介
+    title: Web 2.0
+    details: Web2.0基础<br />~
+    link: /前端/Web2.0/
     linkText: 前端常用知识
+
+  - icon: 📖
+    title: Web 3.0
+    details: Web3.0基础<br />~
+    link: /前端/Web3.0/
+    linkText: 区块链
+
+
   # - icon: 📘
   #   title: 源码阅读
   #   details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识

@@ -4,9 +4,21 @@ import { head, nav, sidebar } from "./configs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  outDir: "../dist",
+  base: process.env.APP_BASE_PATH || "/",
+
+  lang: "zh-CN",
   title: "轻语",
-  description: "轻语的博客",
+  description: "",
   head,
+
+  lastUpdated: true,
+  cleanUrls: true,
+
+  /* markdown 配置 */
+  markdown: {
+    lineNumbers: true,
+  },
   /* 主题配置 */
   themeConfig: {
     i18nRouting: false,
@@ -25,12 +37,12 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/whisper-xiang",
+        link: "https://github.com/whisper-xiang/vitepress-whisper-blog",
       },
     ],
 
     footer: {
-      message: "如有转载或 CV 的请标注本站原文地址",
+      message: "识盈虚之有数",
       copyright: "Copyright © 2025-present whisper",
     },
 
@@ -55,7 +67,7 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      // badgeId: "maomao1996.vitepress-nav-template",
+      badgeId: "",
     },
   },
 
