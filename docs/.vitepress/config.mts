@@ -5,7 +5,8 @@ import { head, nav, sidebar } from "./configs";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   outDir: "../dist",
-  base: process.env.APP_BASE_PATH || "/",
+  // base: process.env.APP_BASE_PATH || "/",
+  base: "/",
 
   lang: "zh-CN",
   title: "轻语",
