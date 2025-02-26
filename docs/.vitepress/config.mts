@@ -22,6 +22,8 @@ export default defineConfig({
   },
   /* 主题配置 */
   themeConfig: {
+    externalLinkIcon: true, // 是否在 markdown 中的外部链接旁显示外部链接图标。
+
     i18nRouting: false,
 
     logo: "/avatar.png",
