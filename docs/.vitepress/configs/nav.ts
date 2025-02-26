@@ -12,7 +12,10 @@ export const nav: DefaultTheme.Config["nav"] = [
   },
   {
     text: "经济学",
-    items: [{ text: "阅读笔记", link: "/经济学/阅读笔记/钱从哪里来6" }],
+    items: [
+      { text: "阅读笔记", link: "/经济学/阅读笔记/钱从哪里来6" },
+      { text: "加密货币生态", link: "/经济学/加密货币生态/01-概览" },
+    ],
   },
   // { text: '茂茂主页', link: 'https://fe-mm.com' },
   // {
