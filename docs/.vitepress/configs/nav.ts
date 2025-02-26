@@ -18,6 +18,10 @@ export const nav: DefaultTheme.Config["nav"] = [
     ],
   },
   {
+    text: "哲学",
+    items: [{ text: "概述", link: "/哲学/01-概述" }],
+  },
+  {
     text: "阅读笔记",
     items: [{ text: "洞穴奇案", link: "/阅读笔记/洞穴奇案" }],
   },

@@ -44,4 +44,14 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       items: [{ text: "洞穴奇案", link: "/阅读笔记/洞穴奇案" }],
     },
   ],
+  "/哲学": [
+    {
+      text: "哲学",
+      collapsed: false,
+      items: [
+        { text: "01-概述", link: "/哲学/01-概述" },
+        { text: "02-上帝", link: "/哲学/02-上帝" },
+      ],
+    },
+  ],
 };
