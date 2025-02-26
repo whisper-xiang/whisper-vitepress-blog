@@ -31,7 +31,17 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
     {
       text: "加密货币生态",
       collapsed: false,
-      items: [{ text: "01-概览", link: "/经济学/加密货币生态/01-概览" }],
+      items: [
+        { text: "01-概览", link: "/经济学/加密货币生态/01-概览" },
+        { text: "02-项目角色", link: "/经济学/加密货币生态/02-项目角色" },
+      ],
+    },
+  ],
+  "/阅读笔记": [
+    {
+      text: "阅读笔记",
+      collapsed: false,
+      items: [{ text: "洞穴奇案", link: "/阅读笔记/洞穴奇案" }],
     },
   ],
 };

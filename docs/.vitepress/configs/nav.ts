@@ -17,6 +17,10 @@ export const nav: DefaultTheme.Config["nav"] = [
       { text: "加密货币生态", link: "/经济学/加密货币生态/01-概览" },
     ],
   },
+  {
+    text: "阅读笔记",
+    items: [{ text: "洞穴奇案", link: "/阅读笔记/洞穴奇案" }],
+  },
   // { text: '茂茂主页', link: 'https://fe-mm.com' },
   // {
   //   text: '茂茂物语',
