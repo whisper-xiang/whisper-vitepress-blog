@@ -4,7 +4,9 @@ export const nav: DefaultTheme.Config["nav"] = [
   { text: "前端导航", link: "/nav/" },
   {
     text: "WEB 2",
-    items: [{ text: "JavaScript", link: "/前端/Web2/JavaScript/01-简介" }],
+    items: [
+      { text: "JavaScript", link: "/前端/Web2/JavaScript/01-简介" },
+      { text: "HTML", link: "/前端/Web2/HTML/01-语义化标签" },],
   },
   {
     text: "WEB 3",

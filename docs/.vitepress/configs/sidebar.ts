@@ -32,6 +32,23 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         // { text: "03-SEO", link: "/前端/Web2/HTML/03-SEO" },
       ],
     },
+    {
+      text: "CSS",
+      collapsed: false,
+      items: [
+        { text: "01-Layout", link: "/前端/Web2/CSS/01-Layout" },
+        // { text: "02-盒模型", link: "/前端/Web2/CSS/02-盒模型" },
+        // { text: "03-选择器", link: "/前端/Web2/CSS/03-选择器" },
+        // { text: "04-布局", link: "/前端/Web2/CSS/04-布局" },
+        // { text: "05-动画", link: "/前端/Web2/CSS/05-动画" },
+        // { text: "06-Flexbox", link: "/前端/Web2/CSS/06-Flexbox" },
+        // { text: "07-Grid", link: "/前端/Web2/CSS/07-Grid" },
+        // { text: "08-媒体查询", link: "/前端/Web2/CSS/08-媒体查询" },
+        // { text: "09-响应式Web设计", link: "/前端/Web2/CSS/09-响应式Web设计" },
+        // { text: "10-CSS预处理器", link: "/前端/Web2/CSS/10-CSS预处理器" },
+        // { text: "11-浏览器兼容性", link: "/前端/Web2/CSS/11-浏览器兼容性" },
+      ],
+    }
   ],
   "/前端/Web3/": [
     {
@@ -40,9 +57,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       items: [
         { text: "前言", link: "/前端/Web3/前言" },
         {
-          text: "区块链的诞生",
+          text: "区块链",
           collapsed: false,
-          items: [{ text: "简介", link: "/前端/Web3/区块链的诞生/01-简介" }],
+          items: [{ text: "简介", link: "/前端/Web3/区块链/01-简介" }],
         },
       ],
     },
@@ -59,6 +76,7 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       items: [
         { text: "01-概览", link: "/经济学/加密货币生态/01-概览" },
         { text: "02-项目角色", link: "/经济学/加密货币生态/02-项目角色" },
+        // { text: "03-加密货币", link: "/经济学/加密货币生态/03-加密货币" },
       ],
     },
   ],
