@@ -1,8 +1,76 @@
-# 命名规范
+# CSS 规范
 
-## 命名原则
+## 一、CSS 代码规范
 
-### 祖孙命名
+### 1.1  kebab-case（短横线连接式）
+
+```css
+/* good */
+.hotel-title {
+  font-weight: bold;
+}
+
+/* bad */
+.hotelTitle {
+  font-weight: bold;
+}
+```
+
+### 1.2 空格的使用规则
+
+选择器与 `{` 之前要有空格  
+属性名的 `:` 后要有空格  
+属性名的 `:` 前禁止加空格
+
+```css
+.hotel-content {
+  font-weight: bold;
+}
+```
+
+
+### 1.3 多选择器规则之间换行
+
+当样式针对多个选择器时每个选择器占一行
+
+```css
+a.btn,
+input.btn,
+input[type='button'] {
+  ......;
+}
+```
+
+### 1.4 禁止向 0 后添加单位
+
+```css
+.obj {
+  left: 0px;
+}
+```
+
+### 1.5 小图片必须 sprite 合并
+
+**推荐文章**：[NodeJs 智能合并 CSS 精灵图工具 iSpriter](https://imatlas.com/post/nodejs-intelligent-merge-css-sprite)
+
+### 1.6 推荐 reset.css 样式
+
+**推荐网站**：[http://www.cssreset.com/](http://www.cssreset.com/)
+
+### 1.7 链接的样式顺序
+
+```css
+a:link -> a:visited -> a:hover -> a:active
+```
+
+
+
+
+## 二、命名规范
+
+### 2.1 命名原则
+
+#### 2.1.1 祖孙命名
 
 基于姓氏命名法（继承 + 外来），祖先模块不能出现下划线，除了是全站公用模块，如 mod\_ 系列的命名：
 
@@ -52,42 +120,56 @@
 </div>
 ```
 
-### BEM（弃用）
+### 2.2 BEM
 
-`BEM（Block Element Modifier）`命名法：BEM 是一种常见的 CSS 命名方式，有助于提高代码的可读性和可维护性。  
-`BEM` 命名法将类名分为三个部分：Block（块）、Element（元素）和 Modifier（修饰符）。这些部分用于描述组件、组件的子元素以及组件的不同状态或外观。
-
-```css
-/* Block: .block */
-.header {
-}
-
-/* Element: .block__element */
-.header__nav {
-}
-
-/* Modifier: .block--modifier */
-.header--large {
-}
-```
+`BEM（Block Element Modifier）`：Block 是组件的主结构，Element 是其内部的部分，Modifier 用来改变块或元素的外观或行为。
 
 ```html
-<header class="header header--large">
-  <div class="header__logo">My Website</div>
-  <nav class="header__nav header__nav--active">
-    <ul class="header__nav-list">
-      <li class="header__nav-item header__nav-item--highlighted">
-        <a href="#" class="header__nav-link">Home</a>
-      </li>
-      <li class="header__nav-item">
-        <a href="#" class="header__nav-link">About</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+<!-- Block: menu -->
+<div class="menu">
+  <!-- Element: menu__item -->
+  <div class="menu__item menu__item--active">
+    Home
+  </div>
+  <div class="menu__item">
+    About
+  </div>
+  <div class="menu__item">
+    Contact
+  </div>
+</div>
+```
+```css
+// Block: menu
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+
+  // Element: menu__item
+  .menu__item {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+    // Modifier: menu__item--active
+    &--active {
+      background-color: #007bff;
+      color: white;
+    }
+
+    &:hover {
+      background-color: #dddddd;
+    }
+  }
+}
+
 ```
 
-## 模块命名
+### 2.3 模块命名
 
 | ClassName              | 含义                                     |
 | ---------------------- | ---------------------------------------- |

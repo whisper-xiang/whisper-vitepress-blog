@@ -1,13 +1,14 @@
 # Git 提交规范
 
-规范的 Commit message 是很有必要的。
+:::tip 规范的 Commit message
 
 - 可以统一团队的 `Git commit` 日志风格
 - 方便日后查阅， `Reviewing Code`等
 - 可以帮助我们写好 `Changelog`
 - 能提升项目的整体质量
+:::
 
-## Git Commit 规范
+## 一、Git Commit 规范
 
 目前规范使用较多的是 Angular 团队得规范，这种规范提供了一中轻量级的的提交历史编写规则，它的内容十分的简单:
 
@@ -50,7 +51,7 @@ so existing user sessions might be invalidated.
 
 ```
 
-## 配置 git 提交规范
+## 二、配置 git 提交规范
 
 Commitizen/cz-cli: 是一个格式化 `commit message` 的工具，可以约束提交者按照制定的规范一步一步的填写 `commit message`。
 
@@ -85,9 +86,9 @@ commitizen init cz-conventional-changelog --save --save-exact
 - refactor 代码重构
 - ...
 
-## Commitizen 校验
+## 三、Commitizen 校验
 
-约束了一套代码规范提交说明了， 但是还是有人不按照规范提交代码说明怎么呢？， 那么就需要 `commitlint` 来校验 `commit` 了。
+约束了一套代码规范提交说明了， 但是还是有人不按照规范提交代码说明怎么呢？ 那么就需要 `commitlint` 来校验 `commit` 了。
 
 - [commitizen](https://github.com/commitizen/cz-cli) ，一款标准化 `git commit` 信息的工具。
 
@@ -136,7 +137,7 @@ echo "npx --no -- commitlint --edit ${1}" > .husky/commit-msg
 }
 ```
 
-## git commit 触发 git cz
+## 四、git commit 触发 git cz
 
 在提交的时候，我们都习惯了 `git commit` ，虽然换成 `git cz` 不难，但是如果让开发者在 `git commit` 时无感知的触发 `git cz` 肯定是更好的， 而且也能避免不熟悉项目的人直接 `git commit` 提交一些不符合规范的信息。
 
@@ -150,10 +151,10 @@ echo "npx --no -- commitlint --edit ${1}" > .husky/commit-msg
 }
 ```
 
-## 生成 Changelog
+## 五、生成 Changelog
 
 效果如下：
-![alt text](image.png)
+![alt text](https://raw.githubusercontent.com/whisper-xiang/image-hosting/master/whisper-vitepress-blog/changelog.png){ width="60%" height="auto" }
 
 使用工具如 **standard-changelog** 或 **auto-changelog** 自动生成 changelog。
 
@@ -179,7 +180,7 @@ echo "npx --no -- commitlint --edit ${1}" > .husky/commit-msg
   npm run changelog
 ```
 
-## 参考
+## 六、参考
 
 - [git 提交规范及如何配置](https://shuliqi.github.io/2021/01/15/%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AEgit%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83/#Git-Commit-%E8%A7%84%E8%8C%83)
 - [Commit 规范 + CHANGELOG 生成](https://cloud.tencent.com/developer/article/1755709)
