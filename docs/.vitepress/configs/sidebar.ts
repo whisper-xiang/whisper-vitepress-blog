@@ -48,6 +48,19 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         // { text: "10-CSS预处理器", link: "/前端/Web2/CSS/10-CSS预处理器" },
         // { text: "11-浏览器兼容性", link: "/前端/Web2/CSS/11-浏览器兼容性" },
       ],
+    },
+    {
+      text: "前端规范",
+      collapsed: false,
+      items: [
+        { text: "01-命名规范", link: "/前端/Web2/前端规范/01-命名规范" },
+        { text: "02-HTML规范", link: "/前端/Web2/前端规范/02-HTML规范" },
+        { text: "03-CSS规范", link: "/前端/Web2/前端规范/03-CSS规范" },
+        { text: "04-JavaScript规范", link: "/前端/Web2/前端规范/04-JavaScript规范" },
+        { text: "05-浏览器兼容性", link: "/前端/Web2/前端规范/05-浏览器兼容性" },
+        { text: "06-安全", link: "/前端/Web2/前端规范/06-安全" },
+        { text: "07-性能优化", link: "/前端/Web2/前端规范/07-性能优化" },
+      ]
     }
   ],
   "/前端/Web3/": [
