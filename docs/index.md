@@ -3,21 +3,23 @@ layout: home
 layoutClass: 'home-layout'
 
 hero:
-  name: 轻语的
+  name: 轻语
   text: 个人博客
   tagline: 洋洋洒洒，信手涂鸦
   image:
     src: /avatar.png
     alt: 轻语
   actions:
-    - text: web2.0
-      link: /前端/Web2.0/JavaScript/01-简介/
-    - text: web3.0
-      link: /前端/Web3.0/
+    - text: 前端导航
+      link: /nav/
       theme: alt
-    # - text: 前端导航
-    #   link: /nav/
-    #   theme: alt
+    - text: Web2
+      link: /前端/Web2/JavaScript/01-简介
+    - text: Web3
+      link: /前端/Web3/前言
+      theme: alt
+    - text: 阅读笔记
+      link: /阅读笔记/洞穴奇案
     # - text: mmPlayer
     #   link: https://netease-music.fe-mm.com
     # - text: 测试页
@@ -25,17 +27,22 @@ hero:
     #   theme: alt
 features:
   - icon: 📖
-    title: Web 2.0
-    details: Web2.0基础<br />~
-    link: /前端/Web2.0/
+    title: Web 2
+    details: Web2基础<br />~
+    link: /前端/Web2/JavaScript/01-简介
     linkText: 前端常用知识
 
   - icon: 📖
-    title: Web 3.0
-    details: Web3.0基础<br />~
-    link: /前端/Web3.0/
+    title: Web 3
+    details: Web3基础<br />~
+    link: /前端/Web3/前言
     linkText: 区块链
 
+  - icon: 📘
+    title: 阅读笔记
+    details: 记录阅读过程中的思考<br />许还有些对世界的看法
+    link: /阅读笔记
+    linkText: 悟已往之不谏，知来者之可追
 
   # - icon: 📘
   #   title: 源码阅读
@@ -64,10 +71,17 @@ features:
 ---
 
 <style>
-/*爱的魔力转圈圈*/
-.home-layout .image-src:hover {
-  transform: translate(-50%, -50%) rotate(666turn);
-  transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
+@keyframes rotateForever {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);  /* 初始状态 */
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(666deg);  /* 结束时旋转666度 */
+  }
+}
+
+.home-layout .image-src {
+  animation: rotateForever 59s linear infinite;  /* 59秒，线性，循环播放 */
 }
 
 .home-layout .details small {
