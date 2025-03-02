@@ -51,7 +51,7 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
     },
     {
       text: "前端规范",
-      collapsed: true,
+      collapsed: false,
       items: [
         { text: "01-环境和工具", link: "/前端/Web2/前端规范/01-环境和工具" },
         { text: "02-HTML规范", link: "/前端/Web2/前端规范/02-HTML规范" },
@@ -61,151 +61,6 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "06-Vue2命名规范", link: "/前端/Web2/前端规范/06-Vue2命名规范" },
         { text: "07-Vue3代码规范", link: "/前端/Web2/前端规范/07-Vue3代码规范" },
         { text: "08-Git提交规范", link: "/前端/Web2/前端规范/08-Git提交规范" }
-        // {
-        //   text: "统一开发环境和工具",
-        //   items: [
-        //     {
-        //       text: "环境和工具",
-        //       link: "/前端/Web2/前端规范/环境/环境和工具",
-        //     },
-        //     {
-        //       text: "ESLint",
-        //       link: "/前端/Web2/前端规范/环境/ESLint",
-        //     },
-        //     {
-        //       text: "TSConfig",
-        //       link: "/前端/Web2/前端规范/环境/TSConfig",
-        //     },
-        //     {
-        //       text: "Prettier",
-        //       link: "/前端/Web2/前端规范/环境/Prettier",
-        //     },
-        //     {
-        //       text: "Stylelint",
-        //       link: "/前端/Web2/前端规范/环境/Stylelint",
-        //     },
-        //   ],
-        // },
-        // {
-        //   text: "统一代码规范",
-        //   collapsed: false,
-        //   items: [
-        //     {
-        //       text: "HTML 规范",
-        //       collapsed: false,
-        //       items: [
-        //         {
-        //           text: "命名规范",
-        //           link: "/前端/Web2/前端规范/HTML/命名规范",
-        //         },
-        //         {
-        //           text: "代码规范",
-        //           link: "/前端/Web2/前端规范/HTML/代码规范",
-        //         },
-        //         {
-        //           text: "注释规范",
-        //           link: "/前端/Web2/前端规范/HTML/注释规范",
-        //         },
-        //       ],
-        //     },
-        //     {
-        //       text: "CSS 规范",
-        //       collapsed: false,
-        //       items: [
-        //         {
-        //           text: "代码规范",
-        //           link: "/前端/Web2/前端规范/CSS/代码规范",
-        //         },
-        //         {
-        //           text: "命名规范",
-        //           link: "/前端/Web2/前端规范/CSS/命名规范",
-        //         },
-        //       ],
-        //     },
-        //     {
-        //       text: "JS 规范",
-        //       collapsed: false,
-        //       items: [
-        //         {
-        //           text: "代码规范",
-        //           link: "/前端/Web2/前端规范/JS/代码规范",
-        //         },
-        //         {
-        //           text: "注释规范",
-        //           link: "/前端/Web2/前端规范/JS/注释规范",
-        //         },
-        //         {
-        //           text: "JSX 书写规范",
-        //           link: "/前端/Web2/前端规范/JS/JSX书写规范",
-        //         },
-        //       ],
-        //     },
-        //     {
-        //       text: "Vue 规范",
-        //       collapsed: false,
-        //       items: [
-        //         {
-        //           text: "vue 2命名规范",
-        //           link: "/前端/Web2/前端规范/Vue/vue2命名规范",
-        //         },
-        //         {
-        //           text: "vue 2代码规范",
-        //           link: "/前端/Web2/前端规范/Vue/vue2代码规范",
-        //         },
-        //         // {
-        //         //   text: 'vue 3命名规范',
-        //         //   link: '/前端/Web2/前端规范/Vue/vue3命名规范',
-        //         // },
-        //         {
-        //           text: "vue 3代码规范",
-        //           link: "/前端/Web2/前端规范/Vue/vue3代码规范",
-        //         },
-        //       ],
-        //     },
-        //     // {
-        //     //   text: "图片规范",
-        //     //   collapsed: false,
-        //     //   items: [
-        //     //     {
-        //     //       text: "命名规范",
-        //     //       link: "/前端/Web2/前端规范/图片规范/命名规范",
-        //     //     },
-        //     //     {
-        //     //       text: "图片格式",
-        //     //       link: "/web2/engineering/normalize/image/图片格式",
-        //     //     },
-        //     //     {
-        //     //       text: "图片尺寸",
-        //     //       link: "/web2/engineering/normalize/image/图片大小",
-        //     //     },
-        //     //     {
-        //     //       text: "图片引入",
-        //     //       link: "/web2/engineering/normalize/image/图片引入",
-        //     //     },
-        //     //   ],
-        //     // },
-        //   ],
-        // },
-        // {
-        //   text: "统一分支管理",
-        //   items: [
-        //     {
-        //       text: "Git提交规范",
-        //       link: "/web2/engineering/normalize/git/git提交规范",
-        //     },
-        //     {
-        //       text: "GitFlow",
-        //       link: "/web2/engineering/normalize/git/gitFlow.md",
-        //     },
-        //   ],
-        // },
-        // { text: "01-命名规范", link: "/前端/Web2/前端规范/01-命名规范" },
-        // { text: "02-HTML规范", link: "/前端/Web2/前端规范/02-HTML规范" },
-        // { text: "03-CSS规范", link: "/前端/Web2/前端规范/03-CSS规范" },
-        // {
-        //   text: "04-JavaScript规范",
-        //   link: "/前端/Web2/前端规范/04-JavaScript规范",
-        // },
         // {
         //   text: "05-浏览器兼容性",
         //   link: "/前端/Web2/前端规范/05-浏览器兼容性",
@@ -224,7 +79,11 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         {
           text: "区块链",
           collapsed: false,
-          items: [{ text: "简介", link: "/前端/Web3/区块链/01-简介" }]
+          items: [
+            { text: "01-简介", link: "/前端/Web3/区块链/01-简介" },
+            { text: "02-核心技术", link: "/前端/Web3/区块链/02-核心技术" },
+            { text: "03-密码学与安全技术", link: "/前端/Web3/区块链/03-密码学与安全技术" }
+          ]
         }
       ]
     }

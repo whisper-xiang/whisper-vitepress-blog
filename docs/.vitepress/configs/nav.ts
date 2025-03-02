@@ -6,12 +6,12 @@ export const nav: DefaultTheme.Config["nav"] = [
     text: "WEB 2",
     items: [
       { text: "HTML", link: "/前端/Web2/HTML/01-语义化标签" },
-      { text: "CSS", link: "/前端/Web2/CSS/01-简介" },
+      { text: "CSS", link: "/前端/Web2/CSS/01-Layout" },
       { text: "JavaScript", link: "/前端/Web2/JavaScript/01-简介" },
-      {text: '浏览器底层原理', link: '/前端/Web2/浏览器底层原理/01-概述'},
+      // {text: '浏览器底层原理', link: '/前端/Web2/浏览器底层原理/01-概述'},
       // { text: "ES6", link: "/前端/Web2/ES6/01-简介" },
       // { text: "TypeScript", link: "/前端/Web2/TypeScript/01-简介" },
-      { text: '前端规范', link: '/前端/Web2/前端规范/环境/环境和工具' },
+      { text: "前端规范", link: "/前端/Web2/前端规范/环境/环境和工具" }
       // { text: "JavaScript", link: "/前端/Web2/JavaScript/01-简介" },
       // { text: "HTML", link: "/前端/Web2/HTML/01-语义化标签" },
       // { text: "CSS", link: "/前端/Web2/CSS/01-简介" },
@@ -32,27 +32,30 @@ export const nav: DefaultTheme.Config["nav"] = [
       //     // { text: 'DevOps', link: '/web2/engineering/DevOps/index' },
       //   ],
       // },
-    ],
+    ]
   },
   {
     text: "WEB 3",
-    items: [{ text: "前言", link: "/前端/Web3/前言" }],
+    items: [
+      { text: "前言", link: "/前端/Web3/前言" },
+      { text: "区块链", link: "/前端/Web3/区块链/01-简介" }
+    ]
   },
   {
     text: "经济学",
     items: [
       { text: "阅读笔记", link: "/经济学/阅读笔记/钱从哪里来6" },
-      { text: "加密货币生态", link: "/经济学/加密货币生态/01-概览" },
-    ],
+      { text: "加密货币生态", link: "/经济学/加密货币生态/01-概览" }
+    ]
   },
   {
     text: "哲学",
-    items: [{ text: "概述", link: "/哲学/01-概述" }],
+    items: [{ text: "概述", link: "/哲学/01-概述" }]
   },
   {
     text: "阅读笔记",
-    items: [{ text: "洞穴奇案", link: "/阅读笔记/洞穴奇案" }],
-  },
+    items: [{ text: "洞穴奇案", link: "/阅读笔记/洞穴奇案" }]
+  }
   // { text: '茂茂主页', link: 'https://fe-mm.com' },
   // {
   //   text: '茂茂物语',
