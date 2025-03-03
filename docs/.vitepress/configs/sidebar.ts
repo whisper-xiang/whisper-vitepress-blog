@@ -90,9 +90,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
   ],
   "/经济学": [
     {
-      text: "阅读笔记",
+      text: "香帅金融讲义",
       collapsed: false,
-      items: [{ text: "钱从哪里来6", link: "/经济学/阅读笔记/钱从哪里来6" }]
+      items: [{ text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义和演化" }]
     },
     {
       text: "加密货币生态",
@@ -102,6 +102,11 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "02-项目角色", link: "/经济学/加密货币生态/02-项目角色" }
         // { text: "03-加密货币", link: "/经济学/加密货币生态/03-加密货币" },
       ]
+    },
+    {
+      text: "阅读笔记",
+      collapsed: false,
+      items: [{ text: "钱从哪里来6", link: "/经济学/阅读笔记/钱从哪里来6" }]
     }
   ],
   "/阅读笔记": [
