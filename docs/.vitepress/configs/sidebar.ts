@@ -92,7 +92,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
     {
       text: "香帅金融讲义",
       collapsed: false,
-      items: [{ text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义和演化" }]
+      items: [{ text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义" },
+        { text: "02-银行", link: "/经济学/香帅金融讲义/02-银行" }
+      ]
     },
     {
       text: "加密货币生态",
