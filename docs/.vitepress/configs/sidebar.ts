@@ -68,7 +68,24 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         // { text: "06-安全", link: "/前端/Web2/前端规范/06-安全" },
         // { text: "07-性能优化", link: "/前端/Web2/前端规范/07-性能优化" },
       ]
-    }
+    },
+    {
+      text: "DevOps",
+      collapsed: false,
+      items: [
+        { text: "01-简介", link: "/前端/Web2/DevOps/01-简介" }
+        // { text: "02-盒模型", link: "/前端/Web2/CSS/02-盒模型" },
+        // { text: "03-选择器", link: "/前端/Web2/CSS/03-选择器" },
+        // { text: "04-布局", link: "/前端/Web2/CSS/04-布局" },
+        // { text: "05-动画", link: "/前端/Web2/CSS/05-动画" },
+        // { text: "06-Flexbox", link: "/前端/Web2/CSS/06-Flexbox" },
+        // { text: "07-Grid", link: "/前端/Web2/CSS/07-Grid" },
+        // { text: "08-媒体查询", link: "/前端/Web2/CSS/08-媒体查询" },
+        // { text: "09-响应式Web设计", link: "/前端/Web2/CSS/09-响应式Web设计" },
+        // { text: "10-CSS预处理器", link: "/前端/Web2/CSS/10-CSS预处理器" },
+        // { text: "11-浏览器兼容性", link: "/前端/Web2/CSS/11-浏览器兼容性" },
+      ]
+    },
   ],
   "/前端/Web3/": [
     {
@@ -92,7 +109,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
     {
       text: "香帅金融讲义",
       collapsed: false,
-      items: [{ text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义和演化" }]
+      items: [{ text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义" },
+        { text: "02-银行", link: "/经济学/香帅金融讲义/02-银行" }
+      ]
     },
     {
       text: "加密货币生态",
