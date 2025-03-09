@@ -18,7 +18,7 @@ export default defineConfig({
 
   /* markdown 配置 */
   markdown: {
-    lineNumbers: true,
+    lineNumbers: true
   },
   /* 主题配置 */
   themeConfig: {
@@ -34,32 +34,32 @@ export default defineConfig({
     /* 右侧大纲配置 */
     outline: {
       level: "deep",
-      label: "目录",
+      label: "目录"
     },
 
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/whisper-xiang/vitepress-whisper-blog",
-      },
+        link: "https://github.com/whisper-xiang/vitepress-whisper-blog"
+      }
     ],
 
     footer: {
-      message: "识盈虚之有数",
-      copyright: "Copyright © 2025-present whisper",
+      message: "不要温和的走进那个良夜",
+      copyright: "Copyright © 2025-present whisper"
     },
 
     lastUpdated: {
       text: "最后更新于",
       formatOptions: {
         dateStyle: "short",
-        timeStyle: "medium",
-      },
+        timeStyle: "medium"
+      }
     },
 
     docFooter: {
       prev: "上一篇",
-      next: "下一篇",
+      next: "下一篇"
     },
 
     returnToTopLabel: "回到顶部",
@@ -70,17 +70,17 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: "",
-    },
+      badgeId: "6776"
+    }
   },
 
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
-          api: "modern",
-        },
-      },
-    },
-  },
+          api: "modern"
+        }
+      }
+    }
+  }
 });
