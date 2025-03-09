@@ -118,8 +118,8 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       collapsed: false,
       items: [
         { text: "01-概览", link: "/经济学/加密货币生态/01-概览" },
-        { text: "02-项目角色", link: "/经济学/加密货币生态/02-项目角色" }
-        // { text: "03-加密货币", link: "/经济学/加密货币生态/03-加密货币" },
+        { text: "02-项目角色", link: "/经济学/加密货币生态/02-项目角色" },
+        { text: "03-加密货币", link: "/经济学/加密货币生态/03-加密货币" },
       ]
     },
     {
