@@ -12,6 +12,7 @@ export const nav: DefaultTheme.Config["nav"] = [
       // { text: "ES6", link: "/前端/Web2/ES6/01-简介" },
       // { text: "TypeScript", link: "/前端/Web2/TypeScript/01-简介" },
       { text: "前端规范", link: "/前端/Web2/前端规范/01-环境和工具" },
+      { text: "Chrome V8", link: "/前端/Web2/Chrome/01-V8引擎简介" },
       { text: "DevOps", link: "/前端/Web2/DevOps/01-简介" }
       // { text: "JavaScript", link: "/前端/Web2/JavaScript/01-简介" },
       // { text: "HTML", link: "/前端/Web2/HTML/01-语义化标签" },

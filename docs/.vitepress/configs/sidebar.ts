@@ -51,6 +51,17 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       ]
     },
     {
+      text: 'Chrome V8',
+      collapsed: false,
+      items: [
+        { text: "01-V8引擎简介", link: "/前端/Web2/Chrome/01-V8引擎简介" },
+        { text: "02-V8执行过程", link: "/前端/Web2/Chrome/02-V8执行过程" },
+        // { text: "03-V8垃圾回收机制", link: "/前端/Web2/Chrome/03-V8垃圾回收机制" },
+        // { text: "04-V8优化技巧", link: "/前端/Web2/Chrome/04-V8优化技巧" },
+        // { text: "05-V8源码分析", link: "/前端/Web2/Chrome/05-V8源码分析" }
+      ]
+    },
+    {
       text: "前端规范",
       collapsed: false,
       items: [
@@ -122,6 +133,7 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "01-概览", link: "/经济学/加密货币生态/01-概览" },
         { text: "02-项目角色", link: "/经济学/加密货币生态/02-项目角色" },
         { text: "03-加密货币", link: "/经济学/加密货币生态/03-加密货币" },
+        
       ]
     },
     {
