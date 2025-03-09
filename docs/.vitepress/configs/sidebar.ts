@@ -9,9 +9,10 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "01-简介", link: "/前端/Web2/JavaScript/01-简介" },
         { text: "02-数据类型", link: "/前端/Web2/JavaScript/02-数据类型" },
         { text: "03-面向对象", link: "/前端/Web2/JavaScript/03-面向对象" },
-        { text: "04-迭代方法", link: "/前端/Web2/JavaScript/04-迭代方法" }
+        { text: "04-迭代方法", link: "/前端/Web2/JavaScript/04-迭代方法" },
         // { text: "05-函数", link: "/前端/Web2/JavaScript/05-函数" },
-        // { text: "06-函数式编程", link: "/前端/Web2/JavaScript/06-函数式编程" },
+        { text: "06-编程范式", link: "/前端/Web2/JavaScript/06-编程范式" },
+        { text: "07-设计模式", link: "/前端/Web2/JavaScript/07-设计模式" }
         // { text: "07-异步编程", link: "/前端/Web2/JavaScript/07-异步编程" },
         // { text: "08-ES6新增内容", link: "/前端/Web2/JavaScript/08-ES6新增内容" },
         // { text: "06-设计模式", link: "/前端/Web2/JavaScript/06-设计模式" },
@@ -85,7 +86,7 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         // { text: "10-CSS预处理器", link: "/前端/Web2/CSS/10-CSS预处理器" },
         // { text: "11-浏览器兼容性", link: "/前端/Web2/CSS/11-浏览器兼容性" },
       ]
-    },
+    }
   ],
   "/前端/Web3/": [
     {
@@ -109,7 +110,8 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
     {
       text: "香帅金融讲义",
       collapsed: false,
-      items: [{ text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义" },
+      items: [
+        { text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义" },
         { text: "02-银行", link: "/经济学/香帅金融讲义/02-银行" }
       ]
     },
