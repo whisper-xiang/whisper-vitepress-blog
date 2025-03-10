@@ -51,11 +51,11 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       ]
     },
     {
-      text: 'Chrome V8',
+      text: "Chrome V8",
       collapsed: false,
       items: [
         { text: "01-V8引擎简介", link: "/前端/Web2/Chrome/01-V8引擎简介" },
-        { text: "02-V8执行过程", link: "/前端/Web2/Chrome/02-V8执行过程" },
+        { text: "02-V8执行过程", link: "/前端/Web2/Chrome/02-V8执行过程" }
         // { text: "03-V8垃圾回收机制", link: "/前端/Web2/Chrome/03-V8垃圾回收机制" },
         // { text: "04-V8优化技巧", link: "/前端/Web2/Chrome/04-V8优化技巧" },
         // { text: "05-V8源码分析", link: "/前端/Web2/Chrome/05-V8源码分析" }
@@ -113,6 +113,14 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
             { text: "02-核心技术", link: "/前端/Web3/区块链/02-核心技术" },
             { text: "03-密码学与安全技术", link: "/前端/Web3/区块链/03-密码学与安全技术" }
           ]
+        },
+        {
+          text: "比特币",
+          collapsed: false,
+          items: [
+            { text: "01-简介", link: "/前端/Web3/比特币/01-简介" }
+            // { text: "02-工作原理", link: "/前端/Web3/比特币/02-工作原理" }
+          ]
         }
       ]
     }
@@ -133,7 +141,10 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "01-概览", link: "/经济学/加密货币生态/01-概览" },
         { text: "02-项目角色", link: "/经济学/加密货币生态/02-项目角色" },
         { text: "03-加密货币", link: "/经济学/加密货币生态/03-加密货币" },
-        
+        { text: "04-交易类型", link: "/经济学/加密货币生态/04-交易类型" },
+        { text: "05-交易策略", link: "/经济学/加密货币生态/05-交易策略" }
+        // { text: "07-金融工具", link: "/经济学/加密货币生态/07-金融工具" },
+        // { text: "08-提币与充币", link: "/经济学/加密货币生态/08-提币与充币" }
       ]
     },
     {
