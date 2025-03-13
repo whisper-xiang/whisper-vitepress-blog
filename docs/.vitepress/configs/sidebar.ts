@@ -111,7 +111,8 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
           items: [
             { text: "01-简介", link: "/前端/Web3/区块链/01-简介" },
             { text: "02-核心技术", link: "/前端/Web3/区块链/02-核心技术" },
-            { text: "03-密码学与安全技术", link: "/前端/Web3/区块链/03-密码学与安全技术" }
+            { text: "03-密码学与安全技术", link: "/前端/Web3/区块链/03-密码学与安全技术" },
+            { text: "04-数据结构", link: "/前端/Web3/区块链/04-数据结构" }
           ]
         },
         {

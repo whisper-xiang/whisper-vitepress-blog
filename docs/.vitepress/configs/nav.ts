@@ -40,7 +40,8 @@ export const nav: DefaultTheme.Config["nav"] = [
     text: "WEB 3",
     items: [
       { text: "前言", link: "/前端/Web3/前言" },
-      { text: "区块链", link: "/前端/Web3/区块链/01-简介" }
+      { text: "区块链", link: "/前端/Web3/区块链/01-简介" },
+      { text: "比特币", link: "/前端/Web3/比特币/01-简介" }
     ]
   },
   {
