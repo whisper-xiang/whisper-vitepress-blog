@@ -10,9 +10,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "02-数据类型", link: "/前端/Web2/JavaScript/02-数据类型" },
         { text: "03-面向对象", link: "/前端/Web2/JavaScript/03-面向对象" },
         { text: "04-迭代方法", link: "/前端/Web2/JavaScript/04-迭代方法" },
-        // { text: "05-函数", link: "/前端/Web2/JavaScript/05-函数" },
+        { text: "05-函数", link: "/前端/Web2/JavaScript/05-函数" },
         { text: "06-编程范式", link: "/前端/Web2/JavaScript/06-编程范式" },
-        { text: "07-设计模式", link: "/前端/Web2/JavaScript/07-设计模式" }
+        // { text: "07-设计模式", link: "/前端/Web2/JavaScript/07-设计模式" }
         // { text: "07-异步编程", link: "/前端/Web2/JavaScript/07-异步编程" },
         // { text: "08-ES6新增内容", link: "/前端/Web2/JavaScript/08-ES6新增内容" },
         // { text: "06-设计模式", link: "/前端/Web2/JavaScript/06-设计模式" },
@@ -119,8 +119,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
           text: "比特币",
           collapsed: false,
           items: [
-            { text: "01-简介", link: "/前端/Web3/比特币/01-简介" }
-            // { text: "02-工作原理", link: "/前端/Web3/比特币/02-工作原理" }
+            { text: "01-简介", link: "/前端/Web3/比特币/01-简介" },
+            { text: "02-工作原理", link: "/前端/Web3/比特币/02-工作原理" },
+            { text: "03-挖矿", link: "/前端/Web3/比特币/03-挖矿" }
           ]
         }
       ]
