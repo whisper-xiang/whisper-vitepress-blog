@@ -20,11 +20,6 @@ hero:
       theme: alt
     - text: 阅读笔记
       link: /阅读笔记/洞穴奇案
-    # - text: mmPlayer
-    #   link: https://netease-music.fe-mm.com
-    # - text: 测试页
-    #   link: /test
-    #   theme: alt
 features:
   - icon: 📖
     title: Web 2
