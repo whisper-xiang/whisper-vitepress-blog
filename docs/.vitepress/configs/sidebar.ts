@@ -11,7 +11,7 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "03-面向对象", link: "/前端/Web2/JavaScript/03-面向对象" },
         { text: "04-迭代方法", link: "/前端/Web2/JavaScript/04-迭代方法" },
         { text: "05-函数", link: "/前端/Web2/JavaScript/05-函数" },
-        { text: "06-编程范式", link: "/前端/Web2/JavaScript/06-编程范式" },
+        { text: "06-编程范式", link: "/前端/Web2/JavaScript/06-编程范式" }
         // { text: "07-设计模式", link: "/前端/Web2/JavaScript/07-设计模式" }
         // { text: "07-异步编程", link: "/前端/Web2/JavaScript/07-异步编程" },
         // { text: "08-ES6新增内容", link: "/前端/Web2/JavaScript/08-ES6新增内容" },
@@ -85,7 +85,10 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       text: "DevOps",
       collapsed: false,
       items: [
-        { text: "01-简介", link: "/前端/Web2/DevOps/01-简介" }
+        { text: "01-简介", link: "/前端/Web2/DevOps/01-简介" },
+        { text: "02-Git", link: "/前端/Web2/DevOps/02-Git" },
+        { text: "03-GitHooks", link: "/前端/Web2/DevOps/03-GitHooks" },
+        { text: "04-Monorepo", link: "/前端/Web2/DevOps/04-Monorepo" }
         // { text: "02-盒模型", link: "/前端/Web2/CSS/02-盒模型" },
         // { text: "03-选择器", link: "/前端/Web2/CSS/03-选择器" },
         // { text: "04-布局", link: "/前端/Web2/CSS/04-布局" },
