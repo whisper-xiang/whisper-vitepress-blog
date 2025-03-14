@@ -14,6 +14,7 @@ export default defineConfig({
   head,
 
   lastUpdated: true,
+
   cleanUrls: true,
 
   /* markdown 配置 */

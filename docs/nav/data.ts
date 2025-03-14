@@ -47,7 +47,14 @@ export const NAV_DATA: NavData[] = [
       {
         icon: "/icons/chatgpt.png",
         title: "ChatGPT（最强）",
-        link: "https://chat.openai.com/chat"
+        link: "https://chat.openai.com/chat",
+        desc: "伟大无需多言"
+      },
+      {
+        icon: "https://favicon.im/chatexcel.com",
+        title: "ChatExcel",
+        link: "https://chatexcel.com",
+        desc: "自然语言操作 Excel，支持图片、pdf转excel"
       },
       {
         icon: "https://www.notion.so/images/logo-ios.png",
