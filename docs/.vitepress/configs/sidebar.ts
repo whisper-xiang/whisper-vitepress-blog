@@ -107,7 +107,7 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       text: "Web3",
       collapsed: false,
       items: [
-        { text: "前言", link: "/前端/Web3/前言" },
+        { text: "概述", link: "/前端/Web3/概述" },
         {
           text: "区块链",
           collapsed: false,
@@ -124,7 +124,12 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
           items: [
             { text: "01-简介", link: "/前端/Web3/比特币/01-简介" },
             { text: "02-工作原理", link: "/前端/Web3/比特币/02-工作原理" },
-            { text: "03-挖矿", link: "/前端/Web3/比特币/03-挖矿" }
+            { text: "03-共识", link: "/前端/Web3/比特币/03-共识" },
+            { text: "04-挖矿", link: "/前端/Web3/比特币/04-挖矿" },
+            { text: "05-网络", link: "/前端/Web3/比特币/05-网络" }
+            // { text: "06-交易", link: "/前端/Web3/比特币/06-交易" },
+            // { text: "07-钱包", link: "/前端/Web3/比特币/07-钱包" },
+            // { text: "08-比特币的局限性", link: "/前端/Web3/比特币/08-比特币的局限性" }
           ]
         }
       ]

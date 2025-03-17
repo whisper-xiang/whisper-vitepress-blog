@@ -130,7 +130,6 @@ gdgts-monorepo/
 - 学生端推荐算法？？？
 
 
-
 #### **3. 共享代码库（`packages/`）**
 - **`ui-kit`**  
   - 公共组件：表格、表单、弹窗、考试计时器、文件上传  
@@ -159,12 +158,6 @@ gdgts-monorepo/
 ### **技术选型**
 - **前端**：Vue3 + TypeScript + Vite（轻量快速）  
 - **工具链**：Yarn 3（Workspaces）、Turborepo（构建优化）、Jest（单元测试）
-
-
-
-
-
-
 
 
 
