@@ -153,7 +153,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       collapsed: false,
       items: [
         { text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义" },
-        { text: "02-银行", link: "/经济学/香帅金融讲义/02-银行" }
+        { text: "02-银行", link: "/经济学/香帅金融讲义/02-银行" },
+        { text: "03-投资银行", link: "/经济学/香帅金融讲义/03-投资银行" }
+        // { text: "04-基金", link: "/经济学/香帅金融讲义/04-基金" }
       ]
     },
     {
