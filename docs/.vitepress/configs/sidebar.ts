@@ -3,6 +3,35 @@ import type { DefaultTheme } from "vitepress";
 export const sidebar: DefaultTheme.Config["sidebar"] = {
   "/前端/Web2/": [
     {
+      text: "JavaScript",
+      collapsed: false,
+      items: [
+        { text: "01-简介", link: "/前端/Web2/JavaScript/01-简介" },
+        { text: "02-数据类型", link: "/前端/Web2/JavaScript/02-数据类型" },
+        { text: "03-面向对象", link: "/前端/Web2/JavaScript/03-面向对象" },
+        { text: "04-迭代方法", link: "/前端/Web2/JavaScript/04-迭代方法" },
+        { text: "05-函数", link: "/前端/Web2/JavaScript/05-函数" },
+        { text: "06-编程范式", link: "/前端/Web2/JavaScript/06-编程范式" }
+        // { text: "07-设计模式", link: "/前端/Web2/JavaScript/07-设计模式" }
+        // { text: "07-异步编程", link: "/前端/Web2/JavaScript/07-异步编程" },
+        // { text: "08-ES6新增内容", link: "/前端/Web2/JavaScript/08-ES6新增内容" },
+        // { text: "06-设计模式", link: "/前端/Web2/JavaScript/06-设计模式" },
+        // { text: "07-编程范式", link: "/前端/Web2/JavaScript/07-编程范式" },
+      ]
+    },
+    {
+      text: "Chrome V8",
+      collapsed: false,
+      items: [
+        { text: "01-V8引擎简介", link: "/前端/Web2/Chrome/01-V8引擎简介" },
+        { text: "02-V8执行过程", link: "/前端/Web2/Chrome/02-V8执行过程" },
+        { text: "03-从执行上下文到变量提升", link: "/前端/Web2/Chrome/03-从执行上下文到变量提升" },
+        { text: "04-作用域", link: "/前端/Web2/Chrome/04-作用域" }
+        // { text: "05-V8优化技巧", link: "/前端/Web2/Chrome/05-V8优化技巧" },
+        // { text: "05-V8源码分析", link: "/前端/Web2/Chrome/05-V8源码分析" }
+      ]
+    },
+    {
       text: "HTML",
       collapsed: false,
       items: [
@@ -31,35 +60,6 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         // { text: "09-响应式Web设计", link: "/前端/Web2/CSS/09-响应式Web设计" },
         // { text: "10-CSS预处理器", link: "/前端/Web2/CSS/10-CSS预处理器" },
         // { text: "11-浏览器兼容性", link: "/前端/Web2/CSS/11-浏览器兼容性" },
-      ]
-    },
-    {
-      text: "JavaScript",
-      collapsed: false,
-      items: [
-        { text: "01-简介", link: "/前端/Web2/JavaScript/01-简介" },
-        { text: "02-数据类型", link: "/前端/Web2/JavaScript/02-数据类型" },
-        { text: "03-面向对象", link: "/前端/Web2/JavaScript/03-面向对象" },
-        { text: "04-迭代方法", link: "/前端/Web2/JavaScript/04-迭代方法" },
-        { text: "05-函数", link: "/前端/Web2/JavaScript/05-函数" },
-        { text: "06-编程范式", link: "/前端/Web2/JavaScript/06-编程范式" }
-        // { text: "07-设计模式", link: "/前端/Web2/JavaScript/07-设计模式" }
-        // { text: "07-异步编程", link: "/前端/Web2/JavaScript/07-异步编程" },
-        // { text: "08-ES6新增内容", link: "/前端/Web2/JavaScript/08-ES6新增内容" },
-        // { text: "06-设计模式", link: "/前端/Web2/JavaScript/06-设计模式" },
-        // { text: "07-编程范式", link: "/前端/Web2/JavaScript/07-编程范式" },
-      ]
-    },
-    {
-      text: "Chrome V8",
-      collapsed: false,
-      items: [
-        { text: "01-V8引擎简介", link: "/前端/Web2/Chrome/01-V8引擎简介" },
-        { text: "02-V8执行过程", link: "/前端/Web2/Chrome/02-V8执行过程" },
-        { text: "03-从执行上下文到变量提升", link: "/前端/Web2/Chrome/03-从执行上下文到变量提升" }
-        // { text: "03-V8垃圾回收机制", link: "/前端/Web2/Chrome/03-V8垃圾回收机制" },
-        // { text: "04-V8优化技巧", link: "/前端/Web2/Chrome/04-V8优化技巧" },
-        // { text: "05-V8源码分析", link: "/前端/Web2/Chrome/05-V8源码分析" }
       ]
     },
     {
@@ -131,6 +131,17 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
             // { text: "06-交易", link: "/前端/Web3/比特币/06-交易" },
             // { text: "07-钱包", link: "/前端/Web3/比特币/07-钱包" },
             // { text: "08-比特币的局限性", link: "/前端/Web3/比特币/08-比特币的局限性" }
+          ]
+        },
+        {
+          text: "以太坊",
+          collapsed: false,
+          items: [
+            { text: "01-简介", link: "/前端/Web3/以太坊/01-简介" },
+            { text: "02-核心概念", link: "/前端/Web3/以太坊/02-核心概念" },
+            { text: "03-主要设计", link: "/前端/Web3/以太坊/03-主要设计" },
+            { text: "04-相关工具", link: "/前端/Web3/以太坊/04-相关工具" },
+            { text: "05-智能合约", link: "/前端/Web3/以太坊/05-智能合约" }
           ]
         }
       ]
