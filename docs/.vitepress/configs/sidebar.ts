@@ -26,7 +26,8 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "01-V8引擎简介", link: "/前端/Web2/Chrome/01-V8引擎简介" },
         { text: "02-V8执行过程", link: "/前端/Web2/Chrome/02-V8执行过程" },
         { text: "03-从执行上下文到变量提升", link: "/前端/Web2/Chrome/03-从执行上下文到变量提升" },
-        { text: "04-作用域", link: "/前端/Web2/Chrome/04-作用域" }
+        { text: "04-作用域", link: "/前端/Web2/Chrome/04-作用域" },
+        { text: "05-闭包", link: "/前端/Web2/Chrome/05-闭包" }
         // { text: "05-V8优化技巧", link: "/前端/Web2/Chrome/05-V8优化技巧" },
         // { text: "05-V8源码分析", link: "/前端/Web2/Chrome/05-V8源码分析" }
       ]
@@ -154,8 +155,8 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       items: [
         { text: "01-金融的定义和演化", link: "/经济学/香帅金融讲义/01-金融的定义" },
         { text: "02-银行", link: "/经济学/香帅金融讲义/02-银行" },
-        { text: "03-投资银行", link: "/经济学/香帅金融讲义/03-投资银行" }
-        // { text: "04-基金", link: "/经济学/香帅金融讲义/04-基金" }
+        { text: "03-投资银行", link: "/经济学/香帅金融讲义/03-投资银行" },
+        { text: "04-基金", link: "/经济学/香帅金融讲义/04-基金" }
       ]
     },
     {
