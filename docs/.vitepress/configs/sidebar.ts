@@ -128,10 +128,12 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
             { text: "02-工作原理", link: "/前端/Web3/比特币/02-工作原理" },
             { text: "03-共识", link: "/前端/Web3/比特币/03-共识" },
             { text: "04-挖矿", link: "/前端/Web3/比特币/04-挖矿" },
-            { text: "05-网络", link: "/前端/Web3/比特币/05-网络" }
-            // { text: "06-交易", link: "/前端/Web3/比特币/06-交易" },
-            // { text: "07-钱包", link: "/前端/Web3/比特币/07-钱包" },
-            // { text: "08-比特币的局限性", link: "/前端/Web3/比特币/08-比特币的局限性" }
+            { text: "05-脚本", link: "/前端/Web3/比特币/05-脚本" },
+            { text: "06-网络", link: "/前端/Web3/比特币/06-网络" },
+            { text: "07-侧链", link: "/前端/Web3/比特币/07-侧链" },
+            { text: "08-分叉", link: "/前端/Web3/比特币/08-分叉" },
+            { text: "09-匿名性", link: "/前端/Web3/比特币/09-匿名性" },
+            { text: "10-相关工具", link: "/前端/Web3/比特币/10-相关工具" }
           ]
         },
         {
@@ -184,7 +186,8 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       collapsed: false,
       items: [
         { text: "洞穴奇案", link: "/阅读笔记/洞穴奇案" },
-        { text: "古诗词", link: "/阅读笔记/古诗词" }
+        { text: "古诗词", link: "/阅读笔记/古诗词" },
+        { text: "玩家凶猛", link: "/阅读笔记/玩家凶猛" }
       ]
     }
   ],
