@@ -65,8 +65,15 @@ export const nav: DefaultTheme.Config["nav"] = [
   //   items: [{ text: "概述", link: "/哲学/01-概述" }]
   // },
   {
-    text: "阅读笔记",
-    items: [{ text: "洞穴奇案", link: "/阅读笔记/洞穴奇案" }]
+    text: "笔记",
+    items: [
+      { text: "日常笔记", link: "/daily-notes/", activeMatch: "^/daily-notes" },
+      {
+        text: "读书笔记",
+        link: "/阅读笔记/洞穴奇案",
+        activeMatch: "^/阅读笔记/"
+      }
+    ]
   }
   // { text: '茂茂主页', link: 'https://fe-mm.com' },
   // {

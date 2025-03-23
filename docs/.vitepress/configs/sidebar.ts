@@ -1,4 +1,7 @@
 import type { DefaultTheme } from "vitepress";
+import fs from "fs-extra";
+
+const sidebarDailyNotes: DefaultTheme.SidebarItem[] = fs.readJSONSync("./scripts/daily-notes.json", { throws: false }) || [];
 
 export const sidebar: DefaultTheme.Config["sidebar"] = {
   "/前端/Web2/": [
@@ -202,5 +205,6 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "04-自我", link: "/哲学/04-自我" }
       ]
     }
-  ]
+  ],
+  "/daily-notes": sidebarDailyNotes
 };

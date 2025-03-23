@@ -30,3 +30,9 @@ package-lock.json
 .DS_Store
 
 # user-specific files
+
+
+docs/daily-notes
+
+# user-specific files
+scripts/daily-notes.json
