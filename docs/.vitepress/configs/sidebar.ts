@@ -142,9 +142,9 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
           items: [
             { text: "01-简介", link: "/前端/Web3/以太坊/01-简介" },
             { text: "02-核心概念", link: "/前端/Web3/以太坊/02-核心概念" },
-            { text: "03-主要设计", link: "/前端/Web3/以太坊/03-主要设计" },
-            { text: "04-相关工具", link: "/前端/Web3/以太坊/04-相关工具" },
-            { text: "05-智能合约", link: "/前端/Web3/以太坊/05-智能合约" }
+            { text: "03-数据结构", link: "/前端/Web3/以太坊/03-数据结构" },
+            // { text: "04-相关工具", link: "/前端/Web3/以太坊/04-相关工具" },
+            { text: "04-智能合约", link: "/前端/Web3/以太坊/04-智能合约" }
           ]
         }
       ]
