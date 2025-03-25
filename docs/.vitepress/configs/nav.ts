@@ -69,7 +69,7 @@ export const nav: DefaultTheme.Config["nav"] = [
     items: [
       { text: "日常笔记", link: "/daily-notes/", activeMatch: "^/daily-notes" },
       {
-        text: "读书笔记",
+        text: "阅读笔记",
         link: "/阅读笔记/洞穴奇案",
         activeMatch: "^/阅读笔记/"
       }
