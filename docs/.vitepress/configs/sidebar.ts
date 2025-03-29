@@ -206,5 +206,15 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
       ]
     }
   ],
+  "/工具": [
+    {
+      text: "在线工具",
+      collapsed: false,
+      items: [
+        { text: "在线工具", link: "/工具/在线工具" },
+        { text: "Mac平台工具", link: "/工具/Mac平台" }
+      ]
+    }
+  ],
   "/daily-notes": sidebarDailyNotes
 };

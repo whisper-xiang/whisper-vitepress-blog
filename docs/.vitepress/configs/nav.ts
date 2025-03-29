@@ -65,6 +65,13 @@ export const nav: DefaultTheme.Config["nav"] = [
   //   items: [{ text: "概述", link: "/哲学/01-概述" }]
   // },
   {
+    text: "工具",
+    items: [
+      { text: "在线工具", link: "/工具/在线工具" },
+      { text: "Mac平台工具", link: "/工具/Mac平台" }
+    ]
+  },
+  {
     text: "笔记",
     items: [
       { text: "日常笔记", link: "/daily-notes/", activeMatch: "^/daily-notes" },

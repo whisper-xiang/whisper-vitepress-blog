@@ -41,7 +41,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/whisper-xiang/vitepress-whisper-blog"
+        link: "https://github.com/whisper-xiang/whisper-vitepress-blog"
       }
     ],
 
@@ -71,7 +71,7 @@ export default defineConfig({
 
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: "6776"
+      badgeId: "xiangqingyu.whisper-vitepress-blog"
     }
   },
 
