@@ -30,7 +30,8 @@ export const sidebar: DefaultTheme.Config["sidebar"] = {
         { text: "02-V8执行过程", link: "/前端/Web2/Chrome/02-V8执行过程" },
         { text: "03-从执行上下文到变量提升", link: "/前端/Web2/Chrome/03-从执行上下文到变量提升" },
         { text: "04-作用域", link: "/前端/Web2/Chrome/04-作用域" },
-        { text: "05-闭包", link: "/前端/Web2/Chrome/05-闭包" }
+        { text: "05-闭包", link: "/前端/Web2/Chrome/05-闭包" },
+        { text: "06-执行上下文中的 this", link: "/前端/Web2/Chrome/06-执行上下文中的this" }
         // { text: "05-V8优化技巧", link: "/前端/Web2/Chrome/05-V8优化技巧" },
         // { text: "05-V8源码分析", link: "/前端/Web2/Chrome/05-V8源码分析" }
       ]
